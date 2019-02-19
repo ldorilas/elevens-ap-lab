@@ -13,5 +13,7 @@ public class CardTester {
 		Card card3 = new Card("4", "Spades", 4);
 		System.out.println("Does card 1 match card 2?" + card1.matches(card2));
 		System.out.println("Does card 1 match card 3?" + card1.matches(card3));
+		System.out.println("Card 1's Suit: " + card1.suit());
+		System.out.println("Card 1: " + card1.toString());
 	}
 }
